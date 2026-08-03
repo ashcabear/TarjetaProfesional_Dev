@@ -164,6 +164,11 @@
             "toZ": 0.021,
             "loop": false
           }
+        },
+        "9f21cc94-ffe5-40be-8e10-c8bbbe38dfbc": {
+          "id": "9f21cc94-ffe5-40be-8e10-c8bbbe38dfbc",
+          "name": "Custom Component",
+          "parameters": {}
         }
       },
       "name": "Box",
@@ -229,6 +234,143 @@
         "name": "Tarjeta_Ashley"
       },
       "order": 7.401547019339587
+    },
+    "88a29452-50c5-4980-966a-3062f4af43ed": {
+      "id": "88a29452-50c5-4980-966a-3062f4af43ed",
+      "position": [
+        0,
+        -0.6350556742440001,
+        -1.6794440159316126
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        2.300000000000001,
+        2.300000000000001,
+        2.300000000000001
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF"
+      },
+      "parentId": "58a853c3-bc43-491d-8c57-a7c35d5bbb15",
+      "components": {},
+      "name": "Video",
+      "order": -0.8291720002671745,
+      "videoControls": {}
+    },
+    "58a853c3-bc43-491d-8c57-a7c35d5bbb15": {
+      "id": "58a853c3-bc43-491d-8c57-a7c35d5bbb15",
+      "position": [
+        0,
+        0.4228982101341935,
+        -0.46987982880760104
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 36,
+        "background": "#ad50ff",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "Button",
+      "order": 10.334438016595794
+    },
+    "0f82f477-53c9-45e4-8075-a0015a3bb2fd": {
+      "id": "0f82f477-53c9-45e4-8075-a0015a3bb2fd",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "58a853c3-bc43-491d-8c57-a7c35d5bbb15",
+      "components": {},
+      "name": "Icon",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "url",
+          "url": "https://cdn.8thwall.com/web/assets/sprites/8w-icon-m8j35d7y.png"
+        },
+        "backgroundOpacity": 1
+      },
+      "order": 0.26900132458412823
+    },
+    "e89483d4-2404-4c88-8f50-d7943eee9cf9": {
+      "id": "e89483d4-2404-4c88-8f50-d7943eee9cf9",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "58a853c3-bc43-491d-8c57-a7c35d5bbb15",
+      "components": {},
+      "name": "Text",
+      "ui": {
+        "width": 50,
+        "height": 14,
+        "text": "Button",
+        "color": "#ffffff",
+        "fontSize": 16
+      },
+      "order": 1.450515411876295
     }
   },
   "spaces": {
