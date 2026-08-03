@@ -91,50 +91,6 @@
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "order": 0.6644431107322474
     },
-    "5b23a5bd-6f55-4dde-9668-7c55750fa75f": {
-      "id": "5b23a5bd-6f55-4dde-9668-7c55750fa75f",
-      "position": [
-        0,
-        0,
-        -0.13206155962404761
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        0.3135446809678686,
-        0.3135446809678686,
-        0.3135446809678686
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "components": {
-        "820bae67-cb9f-4770-8798-9677f55710a1": {
-          "id": "820bae67-cb9f-4770-8798-9677f55710a1",
-          "name": "look-at-animation",
-          "parameters": {
-            "target": {
-              "type": "entity",
-              "id": "829aa4ef-170d-4a85-a306-c7138c26b84a"
-            }
-          }
-        }
-      },
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/model.glb"
-        },
-        "animationClip": "",
-        "loop": true
-      },
-      "name": "model.glb",
-      "order": 8.108480538214906
-    },
     "386e2886-db0c-4ad1-b13a-f234fab03349": {
       "id": "386e2886-db0c-4ad1-b13a-f234fab03349",
       "position": [
@@ -210,6 +166,39 @@
       },
       "name": "Box",
       "order": 6.194562151805862
+    },
+    "d815c5ec-4909-4eba-9b73-8f0aec317b5a": {
+      "id": "d815c5ec-4909-4eba-9b73-8f0aec317b5a",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        0.30000000000000016,
+        0.30000000000000016,
+        0.30000000000000016
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "386e2886-db0c-4ad1-b13a-f234fab03349",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/Avatar_Final.glb"
+        },
+        "animationClip": "Idle",
+        "loop": true
+      },
+      "name": "Avatar_Final.glb",
+      "order": 7.855792680223752
     }
   },
   "spaces": {
