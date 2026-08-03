@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 68,
+    "left": 0,
+    "width": 650,
+    "height": 866,
+    "isRotated": true,
+    "originalWidth": 650,
+    "originalHeight": 1004
+  },
+  "imagePath": "image-targets/Tarjeta_Ashley_luminance.png",
+  "metadata": null,
+  "name": "Tarjeta_Ashley",
+  "resources": {
+    "originalImage": "Tarjeta_Ashley_original.png",
+    "croppedImage": "Tarjeta_Ashley_cropped.png",
+    "thumbnailImage": "Tarjeta_Ashley_thumbnail.png",
+    "luminanceImage": "Tarjeta_Ashley_luminance.png"
+  },
+  "created": 1785779686773,
+  "updated": 1785779686773
+}

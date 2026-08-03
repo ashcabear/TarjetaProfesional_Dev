@@ -117,7 +117,8 @@
       "imageTarget": {
         "name": "Targeta"
       },
-      "order": 4.932943905437455
+      "order": 4.932943905437455,
+      "hidden": true
     },
     "829aa4ef-170d-4a85-a306-c7138c26b84a": {
       "id": "829aa4ef-170d-4a85-a306-c7138c26b84a",
@@ -187,7 +188,7 @@
       ],
       "geometry": null,
       "material": null,
-      "parentId": "386e2886-db0c-4ad1-b13a-f234fab03349",
+      "parentId": "5d0158e2-ca2b-4934-8283-d2c35225171f",
       "components": {},
       "gltfModel": {
         "src": {
@@ -199,6 +200,34 @@
       },
       "name": "Avatar_Final.glb",
       "order": 7.855792680223752
+    },
+    "5d0158e2-ca2b-4934-8283-d2c35225171f": {
+      "id": "5d0158e2-ca2b-4934-8283-d2c35225171f",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "Image Target_Ashley",
+      "imageTarget": {
+        "name": "Tarjeta_Ashley"
+      },
+      "order": 7.401547019339587
     }
   },
   "spaces": {
