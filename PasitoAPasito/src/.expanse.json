@@ -45,19 +45,19 @@
       "name": "Camera",
       "position": [
         0.01416124878834818,
-        1.0140716824945102,
-        0.9233576384065594
+        0.8751986130887359,
+        1.2345022053947798
       ],
       "rotation": [
-        -0.00002877545068257905,
-        0.9614836433095586,
-        -0.2748568051682798,
-        0.0017144890892709839
+        -0.0003846089634841189,
+        0.9976188619433475,
+        -0.06894683454660235,
+        0.0016710406365492369
       ],
       "scale": [
-        2.8,
+        2.800000000000013,
         0.9999999999999994,
-        0.9999999999999978
+        1.0000000000000018
       ],
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "order": 1.0308214152219775
@@ -150,21 +150,6 @@
       },
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "components": {
-        "9abd92d6-53cf-4b94-ad1f-0c5675d86da5": {
-          "id": "9abd92d6-53cf-4b94-ad1f-0c5675d86da5",
-          "name": "position-animation",
-          "parameters": {
-            "reverse": true,
-            "easeIn": false,
-            "fromX": -0.776,
-            "fromY": 0.269,
-            "toX": 0.813,
-            "toY": 0.269,
-            "fromZ": 0.021,
-            "toZ": 0.021,
-            "loop": false
-          }
-        },
         "9f21cc94-ffe5-40be-8e10-c8bbbe38dfbc": {
           "id": "9f21cc94-ffe5-40be-8e10-c8bbbe38dfbc",
           "name": "Custom Component",
@@ -260,7 +245,11 @@
       },
       "material": {
         "type": "basic",
-        "color": "#FFFFFF"
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/Video_Olas.mp4"
+        }
       },
       "parentId": "58a853c3-bc43-491d-8c57-a7c35d5bbb15",
       "components": {},
@@ -289,7 +278,18 @@
       "geometry": null,
       "material": null,
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "components": {},
+      "components": {
+        "3dc0ff50-a517-4864-a900-1164558b7be0": {
+          "id": "3dc0ff50-a517-4864-a900-1164558b7be0",
+          "name": "Pausar Video",
+          "parameters": {
+            "videoEntity": {
+              "type": "entity",
+              "id": "88a29452-50c5-4980-966a-3062f4af43ed"
+            }
+          }
+        }
+      },
       "ui": {
         "type": "3d",
         "width": 100,
