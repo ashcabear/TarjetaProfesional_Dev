@@ -120,45 +120,6 @@
       "order": 4.932943905437455,
       "hidden": true
     },
-    "829aa4ef-170d-4a85-a306-c7138c26b84a": {
-      "id": "829aa4ef-170d-4a85-a306-c7138c26b84a",
-      "position": [
-        -0.5884732367342402,
-        0.26886348689755724,
-        0.02129120381951677
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        0.1,
-        0.1,
-        0.1
-      ],
-      "geometry": {
-        "type": "box",
-        "depth": 1,
-        "height": 1,
-        "width": 1
-      },
-      "material": {
-        "type": "basic",
-        "color": "#FFFFFF"
-      },
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "components": {
-        "9f21cc94-ffe5-40be-8e10-c8bbbe38dfbc": {
-          "id": "9f21cc94-ffe5-40be-8e10-c8bbbe38dfbc",
-          "name": "Custom Component",
-          "parameters": {}
-        }
-      },
-      "name": "Box",
-      "order": 6.194562151805862
-    },
     "d815c5ec-4909-4eba-9b73-8f0aec317b5a": {
       "id": "d815c5ec-4909-4eba-9b73-8f0aec317b5a",
       "position": [
@@ -224,19 +185,19 @@
       "id": "88a29452-50c5-4980-966a-3062f4af43ed",
       "position": [
         0,
-        -0.6350556742440001,
-        -1.6794440159316126
+        -0.24696609553933357,
+        -0.6531171173067382
       ],
       "rotation": [
         0,
         0,
         0,
-        1
+        0.9999999999999999
       ],
       "scale": [
-        4.300000000000002,
-        4.300000000000002,
-        4.300000000000002
+        1.672222222222223,
+        1.672222222222223,
+        1.672222222222223
       ],
       "geometry": {
         "type": "plane",
@@ -254,14 +215,14 @@
       "parentId": "58a853c3-bc43-491d-8c57-a7c35d5bbb15",
       "components": {},
       "name": "Video",
-      "order": -0.8291720002671745,
+      "order": 10.569425767101235,
       "videoControls": {}
     },
     "58a853c3-bc43-491d-8c57-a7c35d5bbb15": {
       "id": "58a853c3-bc43-491d-8c57-a7c35d5bbb15",
       "position": [
         0,
-        0.4228982101341935,
+        0.422898210134194,
         -0.46987982880760104
       ],
       "rotation": [
@@ -271,9 +232,9 @@
         1
       ],
       "scale": [
-        1,
-        1,
-        1
+        3.6000000000000036,
+        3.6000000000000036,
+        3.6000000000000036
       ],
       "geometry": null,
       "material": null,
@@ -301,76 +262,12 @@
         "padding": "10",
         "gap": "6",
         "alignItems": "center",
-        "justifyContent": "center"
+        "justifyContent": "center",
+        "image": null,
+        "backgroundSize": "contain"
       },
       "name": "Button",
       "order": 10.334438016595794
-    },
-    "0f82f477-53c9-45e4-8075-a0015a3bb2fd": {
-      "id": "0f82f477-53c9-45e4-8075-a0015a3bb2fd",
-      "position": [
-        -0.323,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "58a853c3-bc43-491d-8c57-a7c35d5bbb15",
-      "components": {},
-      "name": "Icon",
-      "ui": {
-        "width": 16,
-        "height": 16,
-        "image": {
-          "type": "url",
-          "url": "https://cdn.8thwall.com/web/assets/sprites/8w-icon-m8j35d7y.png"
-        },
-        "backgroundOpacity": 1
-      },
-      "order": 0.26900132458412823
-    },
-    "e89483d4-2404-4c88-8f50-d7943eee9cf9": {
-      "id": "e89483d4-2404-4c88-8f50-d7943eee9cf9",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "58a853c3-bc43-491d-8c57-a7c35d5bbb15",
-      "components": {},
-      "name": "Text",
-      "ui": {
-        "width": 50,
-        "height": 14,
-        "text": "Button",
-        "color": "#ffffff",
-        "fontSize": 16
-      },
-      "order": 1.450515411876295
     }
   },
   "spaces": {
