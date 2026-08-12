@@ -128,10 +128,10 @@
         0
       ],
       "rotation": [
-        0.7071067811865475,
         0,
         0,
-        0.7071067811865476
+        0,
+        1
       ],
       "scale": [
         0.30000000000000016,
@@ -140,8 +140,14 @@
       ],
       "geometry": null,
       "material": null,
-      "parentId": "5d0158e2-ca2b-4934-8283-d2c35225171f",
-      "components": {},
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {
+        "760f4de2-ef04-417c-8e9a-335b40ea64ff": {
+          "id": "760f4de2-ef04-417c-8e9a-335b40ea64ff",
+          "name": "Avatar Animation Toggle",
+          "parameters": {}
+        }
+      },
       "gltfModel": {
         "src": {
           "type": "asset",
@@ -151,7 +157,7 @@
         "loop": true
       },
       "name": "Avatar_Final.glb",
-      "order": 7.855792680223752
+      "order": 6.656706667517677
     },
     "5d0158e2-ca2b-4934-8283-d2c35225171f": {
       "id": "5d0158e2-ca2b-4934-8283-d2c35225171f",
@@ -186,7 +192,7 @@
       "position": [
         0,
         -0.24696609553933357,
-        -0.6531171173067382
+        -0.5511908069856638
       ],
       "rotation": [
         0,
@@ -215,7 +221,7 @@
       "parentId": "58a853c3-bc43-491d-8c57-a7c35d5bbb15",
       "components": {},
       "name": "Video",
-      "order": 10.569425767101235,
+      "order": 11.850531652820333,
       "videoControls": {}
     },
     "58a853c3-bc43-491d-8c57-a7c35d5bbb15": {
@@ -223,7 +229,7 @@
       "position": [
         0,
         0.422898210134194,
-        -0.46987982880760104
+        -0.8368145459634695
       ],
       "rotation": [
         0,
@@ -255,7 +261,7 @@
         "type": "3d",
         "width": 100,
         "height": 36,
-        "background": "#ad50ff",
+        "background": "#d9a5a5",
         "borderRadius": 18,
         "flexDirection": "row",
         "backgroundOpacity": 1,
